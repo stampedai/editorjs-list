@@ -25,11 +25,6 @@ Include module at your application
 import List from '@editorjs/list';
 ```
 
-### Download to your project's source dir
-
-1. Upload folder `dist` from repository
-2. Add `dist/bundle.js` file to your page.
-
 ### Load from CDN
 
 Load the script from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@editorjs/list) and connect to your page.
