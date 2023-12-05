@@ -92,6 +92,6 @@ To localize UI labels, put this object to your i18n dictionary under the `tools`
 
 See more instructions about Editor.js internationalization here: [https://editorjs.io/internationalization](https://editorjs.io/internationalization)
 
-## Supports CSP out of the box
+## CSP support
 
-Adds a nonce to injected style tags based on [`<meta property="csp-nonce" content={{ nonce }} />`](https://github.com/marco-prontera/vite-plugin-css-injected-by-js#usestrictcsp-boolean) being present in your document head.
+If you're using Content Security Policy (CSP) pass a `nonce` via [`<meta property="csp-nonce" content={{ nonce }} />`](https://github.com/marco-prontera/vite-plugin-css-injected-by-js#usestrictcsp-boolean) in your document head.
